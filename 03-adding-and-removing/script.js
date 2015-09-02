@@ -10,7 +10,9 @@ addNewButton.addEventListener('click', function () {
   newButton.className = 'button';
   newButton.innerText = "New click me button!";
   buttonDiv.appendChild(newButton);
+  newButton.addEventListener("click", showAlert);
 });
+
 
 // Bind an event to all of the "Click me!" buttons that shows an alert.
 
